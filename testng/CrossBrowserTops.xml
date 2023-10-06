@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+  <parameter name="mob" value= "9970205624"></parameter>
+  <parameter name="pass" value= "9970205624"></parameter>
+  <parameter name="login" value= "click"></parameter>
+  
+  <classes>
+  <class name="CrossBrowserTops.Home"></class>
+  </classes>
+   </test> <!-- Test -->
+</suite> <!-- Suite -->
